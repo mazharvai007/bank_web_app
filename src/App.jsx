@@ -32,10 +32,14 @@ const App = () => {
 					<Stats />
 				</div>
 			</section>
-
 			<section className={`${styles.flexStart} ${styles.paddingX}`}>
 				<div className={`${styles.boxWidth} text-white`}>
 					<Business />
+				</div>
+			</section>
+
+			<section className={`${styles.flexStart} ${styles.paddingX}`}>
+				<div className={`${styles.boxWidth} text-white`}>
 					<Billing />
 					<CarDeal />
 					<Testimonials />
