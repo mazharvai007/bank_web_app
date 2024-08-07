@@ -21,7 +21,7 @@ const App = () => {
 				</div>
 			</header>
 
-			<section className={`${styles.flexStart}`}>
+			<section id="home" className={`${styles.flexStart}`}>
 				{/* <div className={`${styles.boxWidth} text-white`}> */}
 				<Hero />
 				{/* </div> */}
@@ -32,15 +32,27 @@ const App = () => {
 					<Stats />
 				</div>
 			</section>
-			<section className={`${styles.flexStart} ${styles.paddingX}`}>
+
+			<section
+				id="features"
+				className={`${styles.flexStart} ${styles.paddingX}`}
+			>
 				<div className={`${styles.boxWidth} text-white`}>
 					<Business />
 				</div>
 			</section>
 
-			<section className={`${styles.flexStart} ${styles.paddingX}`}>
+			<section
+				id="product"
+				className={`${styles.flexStart} ${styles.paddingX}`}
+			>
 				<div className={`${styles.boxWidth} text-white`}>
 					<Billing />
+				</div>
+			</section>
+
+			<section className={`${styles.flexStart} ${styles.paddingX}`}>
+				<div className={`${styles.boxWidth} text-white`}>
 					<CarDeal />
 					<Testimonials />
 					<Clients />
