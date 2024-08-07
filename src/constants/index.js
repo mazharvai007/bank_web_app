@@ -89,19 +89,19 @@ export const feedbackItems = [
 	},
 ];
 
-export const status = [
+export const stats = [
 	{
-		id: 'status-1',
+		id: 'stats-1',
 		title: 'User Active',
 		value: '3800+',
 	},
 	{
-		id: 'status-2',
+		id: 'stats-2',
 		title: 'TRUSTED BY COMPANY',
 		value: '230+',
 	},
 	{
-		id: 'status-3',
+		id: 'stats-3',
 		title: 'TRANSACTION',
 		value: '$230M+',
 	},

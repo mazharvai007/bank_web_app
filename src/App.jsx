@@ -22,12 +22,19 @@ const App = () => {
 			</header>
 
 			<section className={`${styles.flexStart}`}>
+				{/* <div className={`${styles.boxWidth} text-white`}> */}
 				<Hero />
+				{/* </div> */}
 			</section>
 
 			<section className={`${styles.flexStart} ${styles.paddingX}`}>
 				<div className={`${styles.boxWidth} text-white`}>
 					<Stats />
+				</div>
+			</section>
+
+			<section className={`${styles.flexStart} ${styles.paddingX}`}>
+				<div className={`${styles.boxWidth} text-white`}>
 					<Business />
 					<Billing />
 					<CarDeal />
