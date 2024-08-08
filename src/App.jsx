@@ -75,9 +75,14 @@ const App = () => {
 			<section className={`${styles.flexStart} ${styles.paddingX}`}>
 				<div className={`${styles.boxWidth} `}>
 					<CTA />
-					<Footer />
 				</div>
 			</section>
+
+			<footer className={`${styles.flexStart} ${styles.paddingX}`}>
+				<div className={`${styles.boxWidth} `}>
+					<Footer />
+				</div>
+			</footer>
 		</div>
 	);
 };
