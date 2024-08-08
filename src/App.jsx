@@ -54,7 +54,20 @@ const App = () => {
 			<section className={`${styles.flexStart} ${styles.paddingX}`}>
 				<div className={`${styles.boxWidth} text-white`}>
 					<CarDeal />
+				</div>
+			</section>
+
+			<section
+				id="client"
+				className={`${styles.flexStart} ${styles.paddingX}`}
+			>
+				<div className={`${styles.boxWidth} text-white`}>
 					<Testimonials />
+				</div>
+			</section>
+
+			<section className={`${styles.flexStart} ${styles.paddingX}`}>
+				<div className={`${styles.boxWidth} text-white`}>
 					<Clients />
 					<CTA />
 					<Footer />
