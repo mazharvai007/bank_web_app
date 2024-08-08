@@ -46,13 +46,13 @@ const App = () => {
 				id="product"
 				className={`${styles.flexStart} ${styles.paddingX}`}
 			>
-				<div className={`${styles.boxWidth} text-white`}>
+				<div className={`${styles.boxWidth} `}>
 					<Billing />
 				</div>
 			</section>
 
 			<section className={`${styles.flexStart} ${styles.paddingX}`}>
-				<div className={`${styles.boxWidth} text-white`}>
+				<div className={`${styles.boxWidth} `}>
 					<CarDeal />
 				</div>
 			</section>
@@ -61,14 +61,19 @@ const App = () => {
 				id="client"
 				className={`${styles.flexStart} ${styles.paddingX}`}
 			>
-				<div className={`${styles.boxWidth} text-white`}>
+				<div className={`${styles.boxWidth} `}>
 					<Testimonials />
 				</div>
 			</section>
 
 			<section className={`${styles.flexStart} ${styles.paddingX}`}>
-				<div className={`${styles.boxWidth} text-white`}>
+				<div className={`${styles.boxWidth} `}>
 					<Clients />
+				</div>
+			</section>
+
+			<section className={`${styles.flexStart} ${styles.paddingX}`}>
+				<div className={`${styles.boxWidth} `}>
 					<CTA />
 					<Footer />
 				</div>
